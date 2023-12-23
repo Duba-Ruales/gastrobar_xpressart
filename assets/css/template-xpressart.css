@@ -1526,6 +1526,19 @@ footer .right-text-content ul li a:hover {
   color: #2a2a2a;
 }
 
+/*Boton  para hacer la pagina hacia arriba*/
+.ir-arriba{
+  display:none;
+  background-repeat:no-repeat;
+  font-size:30px;
+  color:#fb5849;
+  cursor:pointer;
+  position:fixed;
+  bottom:30px;
+  right:30px;
+  z-index:2;
+}
+
 /* 
 ---------------------------------------------
 responsive
