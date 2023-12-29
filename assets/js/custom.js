@@ -176,7 +176,7 @@
 	}
 
 
-	// Page loading animation
+	// Page loading animation initial
 	$(window).on('load', function() {
 		if($('.cover').length){
 			$('.cover').parallax({
@@ -187,10 +187,10 @@
 
 		$("#preloader").animate({
 			'opacity': '0'
-		}, 600, function(){
+		}, 200, function(){
 			setTimeout(function(){
 				$("#preloader").css("visibility", "hidden").fadeOut();
-			}, 300);
+			}, 100);
 		});
 	});
 
